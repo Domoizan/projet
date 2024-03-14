@@ -7,7 +7,8 @@
 
 .search-form{
     display: flex;
-    align-items: flex-start;
+    height: 49px;
+    align-items:center;
     margin-top: 35px;
 }
 
@@ -64,7 +65,7 @@
 
 .search_filtre{
     display: flex;
-    vertical-align: middle;
+    flex-direction: row;
     padding-top: 35px;
 }
 
@@ -77,6 +78,7 @@
 }
 
 .filtre_btn{
+    display: inline-block  ;
     height: 50px;
     border-width:3px;
     border-radius: 25px;
@@ -94,48 +96,29 @@
     background-color:#DEEBFF;
 }
 
-.search_filtre_infobar span::before,
-.filtre_btn::before{
-    display: inline-block  ;
-    content: '';
-    height: 22px;
-    width: 22px;
-    margin-right: 15px;
-    margin-bottom: 4px;
-    vertical-align: middle;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.Icon_eco::before{
-    background-image: url(../images/icones/eco.svg);
-}
-
-.Icon_people::before{
-    background-image: url(../images/icones/people.svg);
-}
-
-.Icon_heart::before{
-    background-image: url(../images/icones/heart.svg);
-}
-
-.Icon_fire::before{
-    background-image: url(../images/icones/fire.svg);
+.filtre_btn i{
+    padding-right: 15px;
 }
 
 .search_filtre_infobar{
+    height: 24px;
+    font-size: 16px;
+    font-weight: 400;
     width: 100%;
     display: flex;
     justify-content:flex-start;
+    align-items: center;
+    gap: 10px;
     padding-top: 35px;
 }
 
-.search_filtre_infobar span::before{
+.search_filtre_infobar i{
+    display: inline-block;
     border-style: solid;
+    padding: 5px 10px;
     border-width: 1px;
-    border-radius: 11px;
+    border-radius: 15px;
     border-color: var(--main-color);
-    background-image: url(../images/icones/info.svg);
 }
 
 .show-more div{
