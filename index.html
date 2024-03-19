@@ -20,8 +20,8 @@
         <header class="header">
             <img src="images/logo/Booki.png" alt="Logo Booki" class="logo_XS">
             <nav class="header__nav">
-                <a href="index.html" class="a_nav a_nav__pg_activ">Hébergements</a>
-                <a href="activites.html" class="a_nav">Activites</a>
+                <a href="#hebergements" class="a_nav a_nav__pg_activ">Hébergements</a>
+                <a href="#activites" class="a_nav">Activites</a>
             </nav> 
         </header>
         <!-- fin header -->
@@ -35,10 +35,12 @@
                 </form>
                 <div class="search_filtre">
                     <h2 class="search_filtre-title">Filtres</h2>
-                    <button class="filtre_btn"><i class="fa-solid fa-money-bill-wave"></i>Economique</button> 
-                    <button class="filtre_btn"><i class="fa-solid fa-person"></i>Familial</button> 
-                    <button class="filtre_btn"><i class="fa-solid fa-heart"></i>Romantique</button> 
-                    <button class="filtre_btn"><i class="fa-solid fa-fire"></i>Nos pépites</button> 
+                    <div class="search_filtre_boxbtn">
+                        <button class="filtre_btn"><i class="fa-solid fa-money-bill-wave"></i>Economique</button> 
+                        <button class="filtre_btn"><i class="fa-solid fa-person"></i>Familial</button> 
+                        <button class="filtre_btn"><i class="fa-solid fa-heart"></i>Romantique</button> 
+                        <button class="filtre_btn"><i class="fa-solid fa-fire"></i>Nos pépites</button> 
+                    </div>
                 </div>
                 <div class="search_filtre_infobar">
                     <i class="fa-solid fa-info"></i><span>Plus de 500 logements sont disponibles dans cette ville</span>
@@ -46,7 +48,7 @@
             </div>
             <!-- fin recherche et filtre -->
             <div class="hebergements-and-populaires">
-                <section class="hebergements">
+                <section class="hebergements" id="hebergements">
                     <div class="hebergements-title">
                         <h2 class="section-title">Hébergements à Marseille</h2>
                     </div>
@@ -240,7 +242,7 @@
                     </div>
                 </section>
             </div>
-            <div class="activ">
+            <div class="activ" id="activites">
                 <div class="activ-title">
                     <h2 class="section-title">Activités à Marseille</h2>
                 </div>

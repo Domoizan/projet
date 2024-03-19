@@ -46,6 +46,8 @@
     display: none;
 }
 
+
+
 .search-button{
     height: 49px;
     padding: 10px;
@@ -81,6 +83,13 @@
     padding-top: 30px;
 }
 
+.search_filtre_boxbtn{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 .filtre_btn{
     display: inline-block  ;
     height: 50px;
@@ -91,7 +100,7 @@
     border-style: solid;
     font-size: 16px;
     font-weight: 700;
-    padding: 0 15px;
+    padding: 0 10px;
     margin: 15px;
     flex: none;
 }
@@ -101,7 +110,7 @@
 }
 
 .filtre_btn i{
-    padding-right: 15px;
+    padding-right: 10px;
 }
 
 .search_filtre_infobar{

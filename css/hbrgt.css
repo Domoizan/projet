@@ -14,13 +14,14 @@
     align-items: center;
 }
 
-
+.hebergements-cards a {
+    width: 30%;
+}
 
 .hebergements-cards .card {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    width: 240px;
     min-width: 25%;
     flex-grow: 1;
     margin-top: 33px;
@@ -28,7 +29,7 @@
 
 .hebergements-cards img {
     height: 134px;
-    max-width: 240px;
+    width: 100%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
