@@ -4,11 +4,12 @@
 
     /***  section populaires tablette ***/
 
+
     .search_filtre{
         flex-direction: column;
         align-items: flex-start;
     }
-
+    
     .hebergements-and-populaires {
         flex-direction: column;
     }
@@ -42,16 +43,10 @@
     }
 
     .activ-cards{
-        width: 100%;
         gap:10px;
     }
 
-    .activ-cards a{
-        width: 100%;
-    }
-
     .activ-cards img {
-        /* width: 100%; */
         height: 200px;
         border-top-left-radius: 20px;
         border-top-right-radius: 20px;
@@ -59,7 +54,6 @@
 
     .activ-cards .card-content {
         padding: 0;
-        /* box-sizing: border-box; */
     }
 
     .activ-cards .card-txt{
@@ -69,10 +63,6 @@
     }
 
     .nav-bloc{
-        display: flex;
-        flex-direction: column;
-        min-width: 25%;
-        justify-content: flex-start;
         gap: 30px;
     } 
 

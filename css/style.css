@@ -1,7 +1,7 @@
-/* Style global dez départ */
+/* Style global de départ */
 @import url(general.css);
 /* Style Header logo et navigation*/
-@import url(barnav.css);
+@import url(header.css);
 /* Style formulaire de recherche et filtres */
 @import url(formfiltre.css);
 /* style section hebergements */

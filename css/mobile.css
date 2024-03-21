@@ -121,20 +121,15 @@
         order: 1;
         width: 100%;
         margin-top: 30px;
-        background-color: var(--main-bg-color);
     }
 
     .populaires-cards {
-        display: flex;
         flex-direction: column;
         align-items: flex-start;
     }
 
     .populaires-cards img {
-        width: 33%;
         height: 146px;
-        border-top-left-radius: 20px;
-        border-bottom-left-radius: 20px;
     }
 
     .populaires-cards .card-title {
@@ -166,43 +161,17 @@
     }
 
     .hebergements-cards .card {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
         width: 100%;
-        min-width: 25%;
-        flex-grow: 1;
-        margin-top: 33px;
-    }
-
-    .hebergements-cards img {
-        height: 134px;
-        width: 100%;
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
     }
 
     /***  section activite mobile ***/
-
-    .activ{
-        padding: 30px;
-    }
     
     .activ-cards{
-        width: 100%;
-        display: flex;
         flex-direction: column;
-    }
-
-    .activ-cards .card {
-        width: 100%;
-        margin-top: 33px;
     }
     
     .activ-cards img {
         height: 141px;
-        width: 100%;
-        max-width: 100%;
         object-fit: cover;
     }
     
